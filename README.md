@@ -16,37 +16,8 @@ Folium & Streamlit-Folium: İnteraktif harita görselleştirmesi.
 Numpy & Pandas: Veri işleme ve matris hesaplamaları.
 
 Algoritma Detayları: Karınca Kolonisi (ACO)
-Algoritma, karıncaların yiyecek ararken bıraktıkları feromon izlerini simüle eder. Her iterasyonda karıncalar bir sonraki okulu şu formüle göre seçer:
+Algoritma, karıncaların yiyecek ararken bıraktıkları feromon izlerini simüle eder. Her iterasyonda karıncalar bir sonraki okulu belirli bir formüle göre seçer.
 
-P 
-ij
-​	
- = 
-∑(τ 
-ik
-α
-​	
- )(η 
-ik
-β
-​	
- )
-(τ 
-ij
-α
-​	
- )(η 
-ij
-β
-​	
- )
-​	
- 
-τ (Feromon): Önceki karıncaların deneyimini temsil eder.
-
-η (Sezgisel Bilgi): Mesafenin tersidir (1/d), yani yakın olan yer daha çekicidir.
-
-Alpha & Beta: Bu iki parametre arasındaki dengeyi ayarlar.
 
 Öne Çıkan Özellikler
 Gerçek Veri Hassasiyeti: Koordinat hesaplamaları ödev şartlarına uygun olarak virgülden sonra 4 basamak hassasiyetle yapılmaktadır.

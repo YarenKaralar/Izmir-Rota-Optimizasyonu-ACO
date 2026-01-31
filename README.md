@@ -1,29 +1,30 @@
-İzmir İl Milli Eğitim Müdürlüğü Rota Optimizasyonu (ACO)
-Bu proje, İzmir'deki 15 farklı okulun en verimli şekilde ziyaret edilebilmesi için Karınca Kolonisi Algoritması (Ant Colony Optimization - ACO) kullanılarak geliştirilmiş bir rota optimizasyon sistemidir.
+# Karınca Kolonisi Algoritması İle İzmir İl Milli Eğitim Müdürlüğü Rota Optimizasyonu
 
-Projenin Amacı
+Bu proje, İzmir'deki 15 farklı okulun en verimli şekilde ziyaret edilebilmesi için **Karınca Kolonisi Algoritması (Ant Colony Optimization - ACO)** kullanılarak geliştirilmiş bir **rota optimizasyon** sistemidir.
+---
+## Projenin Amacı
 İzmir İl Milli Eğitim Müdürlüğü'nden yola çıkan bir yetkilinin, belirlenen 15 okulu en kısa mesafeyi kat ederek ziyaret etmesini ve başlangıç noktasına geri dönmesini sağlamaktır. Projede kuş uçuşu mesafe yerine, Google Maps API kullanılarak gerçek zamanlı sürüş mesafeleri baz alınmıştır.
+---
+## Kullanılan Teknolojiler ve Kütüphaneler
+**Python 3.9+**: Ana programlama dili.
 
-Kullanılan Teknolojiler ve Kütüphaneler
-Python 3.9+: Ana programlama dili.
+**Streamlit**: Web tabanlı kullanıcı arayüzü.
 
-Streamlit: Web tabanlı kullanıcı arayüzü.
+**Google Maps API (Distance Matrix & Geocoding)**: Okul koordinatlarını çekmek ve gerçek yol mesafelerini hesaplamak için.
 
-Google Maps API (Distance Matrix & Geocoding): Okul koordinatlarını çekmek ve gerçek yol mesafelerini hesaplamak için.
+**Folium & Streamlit-Folium**: İnteraktif harita görselleştirmesi.
 
-Folium & Streamlit-Folium: İnteraktif harita görselleştirmesi.
+**Numpy & Pandas**: Veri işleme ve matris hesaplamaları.
 
-Numpy & Pandas: Veri işleme ve matris hesaplamaları.
-
-Algoritma Detayları: Karınca Kolonisi (ACO)
+**Algoritma Detayları**: Karınca Kolonisi (ACO)
 Algoritma, karıncaların yiyecek ararken bıraktıkları feromon izlerini simüle eder. Her iterasyonda karıncalar bir sonraki okulu belirli bir formüle göre seçer.
 
+---
+## Öne Çıkan Özellikler
+**Gerçek Veri Hassasiyeti**: Koordinat hesaplamaları ödev şartlarına uygun olarak virgülden sonra 4 basamak hassasiyetle yapılmaktadır.
 
-Öne Çıkan Özellikler
-Gerçek Veri Hassasiyeti: Koordinat hesaplamaları ödev şartlarına uygun olarak virgülden sonra 4 basamak hassasiyetle yapılmaktadır.
+**Görsel Analiz**: Her iterasyondaki en kısa mesafe değişimi grafik üzerinde canlı olarak takip edilebilir.
 
-Görsel Analiz: Her iterasyondaki en kısa mesafe değişimi grafik üzerinde canlı olarak takip edilebilir.
-
-İnteraktif Harita: Hesaplanan en kısa rota, Folium üzerinden interaktif bir harita üzerinde kırmızı çizgi ile gösterilir.
+**İnteraktif Harita**: Hesaplanan en kısa rota, Folium üzerinden interaktif bir harita üzerinde kırmızı çizgi ile gösterilir.
 
 Kişisel API anahtarını içeren .env dosyası repoya dahil edilmemiştir.

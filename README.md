@@ -26,6 +26,4 @@ Görsel Analiz: Her iterasyondaki en kısa mesafe değişimi grafik üzerinde ca
 
 İnteraktif Harita: Hesaplanan en kısa rota, Folium üzerinden interaktif bir harita üzerinde kırmızı çizgi ile gösterilir.
 
-Güvenlik Notu
-
 Kişisel API anahtarını içeren .env dosyası repoya dahil edilmemiştir.

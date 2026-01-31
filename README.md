@@ -5,6 +5,8 @@ Bu proje, İzmir'deki 15 farklı okulun en verimli şekilde ziyaret edilebilmesi
 ---
 ## Projenin Amacı
 İzmir İl Milli Eğitim Müdürlüğü'nden yola çıkan bir yetkilinin, belirlenen 15 okulu en kısa mesafeyi kat ederek ziyaret etmesini ve başlangıç noktasına geri dönmesini sağlamaktır. Projede kuş uçuşu mesafe yerine, Google Maps API kullanılarak gerçek zamanlı sürüş mesafeleri baz alınmıştır.
+**Algoritma Detayları**: Karınca Kolonisi (ACO)
+Algoritma, karıncaların yiyecek ararken bıraktıkları feromon izlerini simüle eder. Her iterasyonda karıncalar bir sonraki okulu belirli bir formüle göre seçer.
 
 ---
 ## Kullanılan Teknolojiler ve Kütüphaneler
@@ -17,9 +19,6 @@ Bu proje, İzmir'deki 15 farklı okulun en verimli şekilde ziyaret edilebilmesi
 **Folium & Streamlit-Folium**: İnteraktif harita görselleştirmesi.
 
 **Numpy & Pandas**: Veri işleme ve matris hesaplamaları.
-
-**Algoritma Detayları**: Karınca Kolonisi (ACO)
-Algoritma, karıncaların yiyecek ararken bıraktıkları feromon izlerini simüle eder. Her iterasyonda karıncalar bir sonraki okulu belirli bir formüle göre seçer.
 
 ---
 ## Öne Çıkan Özellikler

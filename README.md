@@ -28,4 +28,4 @@ Görsel Analiz: Her iterasyondaki en kısa mesafe değişimi grafik üzerinde ca
 
 Güvenlik Notu
 
-Ödev kuralları gereği, kişisel API anahtarını içeren .env dosyası repoya dahil edilmemiştir. Lütfen kendi anahtarınızla test ediniz.
+Kişisel API anahtarını içeren .env dosyası repoya dahil edilmemiştir.

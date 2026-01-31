@@ -1,9 +1,11 @@
 # Karınca Kolonisi Algoritması İle İzmir İl Milli Eğitim Müdürlüğü Rota Optimizasyonu
 
 Bu proje, İzmir'deki 15 farklı okulun en verimli şekilde ziyaret edilebilmesi için **Karınca Kolonisi Algoritması (Ant Colony Optimization - ACO)** kullanılarak geliştirilmiş bir **rota optimizasyon** sistemidir.
+
 ---
 ## Projenin Amacı
 İzmir İl Milli Eğitim Müdürlüğü'nden yola çıkan bir yetkilinin, belirlenen 15 okulu en kısa mesafeyi kat ederek ziyaret etmesini ve başlangıç noktasına geri dönmesini sağlamaktır. Projede kuş uçuşu mesafe yerine, Google Maps API kullanılarak gerçek zamanlı sürüş mesafeleri baz alınmıştır.
+
 ---
 ## Kullanılan Teknolojiler ve Kütüphaneler
 **Python 3.9+**: Ana programlama dili.
